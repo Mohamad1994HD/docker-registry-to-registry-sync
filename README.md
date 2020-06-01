@@ -37,3 +37,4 @@ re-tagged as `127.0.0.1:5000/company/super-project` and pushed to `127.0.0.1:500
 You can specify the registry passwords using`config.yml` file.
 
 ### Running via Docker:
+
