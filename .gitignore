@@ -102,5 +102,5 @@ ENV/
 
 # Misc
 .idea
-config.yml
+*.yml
 Pipfile*
