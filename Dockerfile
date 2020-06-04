@@ -1,15 +1,11 @@
-FROM python:3
+FROM python:3.6.3-alpine3.6
 
 
 WORKDIR /
 
-COPY requirements.txt /
+
+COPY ["requirements.txt", "main.py", "connector.py", "config.yml", "/"]
+
 RUN pip install --no-cache-dir -r /requirements.txt
-
-COPY main.py /main.py
-COPY connector.py /connector.py
-COPY deploy-config.yml /config.yml
-
-RUN chmod 0600 /main.py
 
 CMD ["python3", "-u", "/main.py"]
