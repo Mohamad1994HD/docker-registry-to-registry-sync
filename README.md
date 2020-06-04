@@ -43,4 +43,4 @@ You can specify the registry passwords using`config.yml` file.
 
 1. Create `deploy_config.yml` and put your configuration in it, in the same directory
 
-2. Run setup-cotnainer.sh script
+2. Run `setup-cotnainer.sh` script
