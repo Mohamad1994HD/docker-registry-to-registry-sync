@@ -21,12 +21,15 @@ source_registry:
 destination_registry:
   url: http://127.0.0.1:5000
 
+repeat_every: 120
+
 ```
 
 The meaning of the settings:
 
 * `source-registry`: The registry to sync from
 * `destination-registry`: The registry to sync to
+* `repeat_every': repeat the sync operation every x seconds
   
 When the images are synced, the registry part of the tag is replaced, e.g.
 in the example above the tag `docker.example.com/company/super-project` is
